@@ -2,20 +2,19 @@ Origin: ewelot-astro
 Label: ewelot astro packages on github
 Suite: stable
 Codename: jessie
-Date: Tue, 24 Jan 2017 19:48:51 UTC
+Date: Tue, 24 Jan 2017 20:29:28 UTC
 Architectures: amd64
 Components: main
 Description: Debian packages of software for astronomical image reduction
-hosted on ewelots github repository
 MD5Sum:
  99340e98a6fd7071b074f4dfedf2bd48 691 main/binary-amd64/Packages
  66c764e30361c9a55b114146cc249917 477 main/binary-amd64/Packages.gz
- 4d91d529814f9d1475ded10328c8c9b6 222 main/binary-amd64/Release
+ e9a36ca78ecc50ea81979304bb29afda 186 main/binary-amd64/Release
 SHA1:
  d3f15529db4c751a6df86a15897c1e7bdb7a2028 691 main/binary-amd64/Packages
  b1b7084ccd9ababb2211b04ec35f0394fb1b6df0 477 main/binary-amd64/Packages.gz
- fc4ced21d643514946bfff9bee0d3793a12cf2f4 222 main/binary-amd64/Release
+ 978ecf8cda5c91d3e9baadb69805bcee1396000e 186 main/binary-amd64/Release
 SHA256:
  3c33c2c771e7139f3dc77249eec4651025fa50700b182f3195d2874eda722d7b 691 main/binary-amd64/Packages
  1bfcaf784388230dce424894cb30fc4eead42cf1ccc5ff2cd0d6f6334ccbe1dc 477 main/binary-amd64/Packages.gz
- 94feb82a9d0a0392fc95266545fe5864f92a014e87bf64149a1d3adaab472bb3 222 main/binary-amd64/Release
+ 9e6b8c3f37c19f42bfef7fea633c48b75546d1b42a8b5ef232d7f14481480758 186 main/binary-amd64/Release
