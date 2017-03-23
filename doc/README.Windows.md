@@ -3,14 +3,13 @@
 
 The following instructions are intended to guide you on setting up
 a virtual Linux operating system which can run on any computer.
-This system can then be used to install and test the [AIRTOOLS][1] software
+This system can then be used to install and test the [AIRTOOLS]
+(https://github.com/ewelot/airtools) software
 without interfering with your own host operating system.
 
 
 1. Install VirtualBox
-Download and install the [VirtualBox][2] software.
-[1]: https://github.com/ewelot/airtools
-[2]: http://www.virtualbox.org
+Download and install the [VirtualBox](http://www.virtualbox.org).
 Choose the version which fits your operating system.
 In addition you should also download and install the VirtualBox
 Extension Pack.
@@ -28,19 +27,19 @@ Start the VirtualBox software. It opens a new window from which you create
 and manage your virtual machines (VM). In short, a VM is a virtual computer
 running on virtual hardware provided by the VirtualBox software.
 Create a new VM:
-- choose name, e.g. xubuntu-live
-- choose a memory size of at least 2GB
-- choose to not add a virtual disk (not required for basic work)
+  - choose name, e.g. xubuntu-live
+  - choose a memory size of at least 2GB
+  - choose to not add a virtual disk (not required for basic work)
 Make the ISO file available to the VM:
-- modify settings of the VM, open the "Storage" tab
-- select empty CDROM entry and click the right-most CDROM icon
-- browse and select the ISO image file
+  - modify settings of the VM, open the "Storage" tab
+  - select empty CDROM entry and click the right-most CDROM icon
+  - browse and select the ISO image file
 Other tweakings:
-- on "System" tab make sure booting from optical media is enabled
-- on "System" / "Processor" tab increase number of CPU to about half the
+  - on "System" tab make sure booting from optical media is enabled
+  - on "System" / "Processor" tab increase number of CPU to about half the
     number of your physcal CPU's
-- on "Display" tab increase video memory to 32MB
-- on "USB" tab activate USB-2.0 or USB-3.0
+  - on "Display" tab increase video memory to 32MB
+  - on "USB" tab activate USB-2.0 or USB-3.0
 
 
 4. Boot Linux from Live-DVD
@@ -51,8 +50,8 @@ icon. The shutdown-button is located on that menu at bottom right position.
 
 
 5. Installing airtools
-Follow instructions from the [INSTALL][3] file.
-[3]: INSTALL.md
+Follow instructions from the [INSTALL](INSTALL.md) file.
+
 
 6. Making your FITS image files available to Linux
 Copy your images to an external USB disk (or pen drive). Plug-in the device
