@@ -1,0 +1,19 @@
+Package: cfitsio-examples
+Priority: optional
+Section: science
+Installed-Size: 85
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Architecture: amd64
+Version: 0.1-1
+Depends: libc6 (>= 2.2.5), libcfitsio2 (>= 3.370)
+Filename: ./cfitsio-examples_0.1-1_amd64.deb
+Size: 11696
+MD5sum: a31d8c2b98a1f5a85c6f6473c5491729
+SHA1: fdd62f736697dde2bae1a3e36b3669edb59fd53b
+SHA256: 0b242f100c0494db4cbcaf3bd2b43bb8a9ac3a09bbab73ad8055a2bd50f602a0
+SHA512: 148acfd71286a4b56c0a814c87aa1ae8672880a20030375450f17c282d981fa0f0baa1273013a95eb3c6bd98e101856f000215bfd781301f6c2bcc7110bc4a2f
+Description: CFITSIO based example programs
+ This package contains selected programs from cexamples.tar: fitscopy, imarith,
+ imcopy, imlist and listhead.
+Homepage: http://heasarc.gsfc.nasa.gov/docs/software/fitsio/cexamples.html
+
