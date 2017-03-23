@@ -18,7 +18,7 @@ Extension Pack.
 ## 2. Download a Linux Live-DVD
 Get a current Live-DVD ISO image file of a supported Linux distribution.
 I highly recommend the XUbuntu distribution which you can find at:
-    https://xubuntu.org/getxubuntu/
+    https://xubuntu.org/getxubuntu/.
 Choose a mirror download for latest LTS release and get the 64bit ISO image.
 
 
@@ -26,14 +26,17 @@ Choose a mirror download for latest LTS release and get the 64bit ISO image.
 Start the VirtualBox software. It opens a new window from which you create
 and manage your virtual machines (VM). In short, a VM is a virtual computer
 running on virtual hardware provided by the VirtualBox software.
+
 Create a new VM:
   - choose name, e.g. xubuntu-live
   - choose a memory size of at least 2GB
   - choose to not add a virtual disk (not required for basic work)
+
 Make the ISO file available to the VM:
   - modify settings of the VM, open the "Storage" tab
   - select empty CDROM entry and click the right-most CDROM icon
   - browse and select the ISO image file
+
 Other tweakings:
   - on "System" tab make sure booting from optical media is enabled
   - on "System" / "Processor" tab increase number of CPU to about half the
@@ -50,7 +53,7 @@ icon. The shutdown-button is located on that menu at bottom right position.
 
 
 ## 5. Installing airtools
-Follow instructions from the [INSTALL](INSTALL.md) file.
+Follow instructions from the [INSTALL](../INSTALL.md) file.
 
 
 ## 6. Making your FITS image files available to Linux
