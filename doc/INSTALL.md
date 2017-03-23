@@ -12,9 +12,11 @@ This is a list
 
 ## Smaller Caption
 
-and this is
+and `this` is
+
     some code block
     without formatting
+
 and some text continuing ...
 
 
